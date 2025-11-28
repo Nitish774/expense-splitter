@@ -52,12 +52,11 @@ window.addEventListener('DOMContentLoaded', () => {
     fetch(API_ENDPOINT)
       .then(response => response.json())
       .then(data => {
-        document.querySelector('#spotify-card img').src = data.albumCover;
         document.querySelector('.track-name').textContent = data.name;
         document.querySelector('.track-artist').textContent = data.artist;
-        document.querySelector('#spotify-link').href = data.spotifyUrl;
 
-        document.getElementById('spotify-card').style.display = 'flex';
+        // Hide the Spotify card
+        document.getElementById('spotify-card').style.display = 'none';
       })
       .catch(err => {
         console.error('Failed to load track', err);
