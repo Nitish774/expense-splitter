@@ -74,8 +74,7 @@ app.get('/api/random-track', async (req, res) => {
     }
   });
 
-  document.querySelector('#spotify-card img').src = data.albumCover;
-  document.querySelector('#spotify-link').href = data.spotifyUrl;
-  document.getElementById('spotify-card').style.display = 'flex';
+  // Removed DOM manipulation code as it is not supported in Node.js
+  // If DOM manipulation is required, move this logic to a client-side file
 
   module.exports = app;

@@ -83,8 +83,9 @@ Imagine a trip where three friends, Alice, Bob, and Charlie, share various expen
 This project is licensed under the MIT License. Feel free to use and modify it as per your requirements.
 
 ## Contact
-For further questions or feedback, please contact [vantough@gmail.com](mailto:vantough@gmail.com).
+For further questions or feedback, please contact [nitishshekhar10dec@gmail.com](mailto:nitishshekhar10dec@gmail.com).
 
+## initial error solved
 ---
 
 Enjoy using the **Expense Splitter** to simplify your expense management and ensure fair sharing among participants!
